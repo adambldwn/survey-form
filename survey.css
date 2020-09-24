@@ -1,0 +1,86 @@
+body {
+    
+    
+    background-image: url("netflix-survey.jpg");
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container {
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+
+
+}
+span {
+    color: red;
+}
+
+#description{
+    color: white;
+    text-align: center;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 23px;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 450px;
+    height: 720px;
+    color: white;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#email, #name, #age, #content {
+    width: 420px;
+    height: 39px;
+    margin-top: 15px;
+}
+.box{
+    margin-top: 17px;
+    
+}
+.box1 {
+    margin-top: 0px;
+}
+#Feed {
+    margin-top: 5px;
+    padding: 10px;
+}
+.box8 {
+    margin-top: 10px;
+    /* width: 420px; */
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 200px;
+    height: 47px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+}
